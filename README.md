@@ -26,7 +26,7 @@ npm excel4node (기존에쓰던 xlsx는 셀변형하는게 불편한 점이 많�
 
     });
 
-5.  row column 길이조절(데이터 길이가 길 셀처리하실때 사용하세욥)
+5.  row column 길이조절(데이터 길이가 긴 셀처리하실때 사용하세욥)
 
     ws.column(3).setWidth(50)  
     =>3번째 column 가로길이를 50으로 설정
@@ -58,6 +58,6 @@ npm excel4node (기존에쓰던 xlsx는 셀변형하는게 불편한 점이 많�
     wb.write('파일명',res)
 
 ps 그 외에 정말 좋은 기능들 많은데 https://www.npmjs.com/package/excel4node 여기에서 참고하시고
-다들 업데이트해서 귀찮은 엑셀작업 빠르게 끝냅시다
+번거로운 엑셀작업 빠르게 끝냅시다
 
 #프리것 화이팅!!
