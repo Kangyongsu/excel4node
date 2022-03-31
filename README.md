@@ -43,7 +43,7 @@ npm excel4node (기존에쓰던 xlsx는 셀변형하는게 불편한 점이 많�
     ws.cell(4,19).number(20).style({alignment:{horizontal:'center'}})  
     => 4번째행과 19번째열 위치에 20이라는 정수형타입을 넣음
 
-    (2)셀 병합
+    (2)셀 병합  
     ws.cell(1,5,3,10,true).string("자격체크").style({alignment:{horizontal:'center',vertical:"center"}}).style({font: {size: 40}})  
     =>첫번째 파라미터 = 시작하는 열위치  
     =>2번째 파라미터 = 시작하는 행위치  
